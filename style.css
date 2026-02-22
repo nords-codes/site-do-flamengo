@@ -66,27 +66,31 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     flex-direction: column;
 
-    
 }
 
 .img_jogador{
     width: 50px;
     height: 50px;
-    margin-right: 50px;
+    
     justify-content: space-around;
+    align-items: flex-start;
     
 }
  
 .jogador{
     text-align: center;
-
+width: 100px;
+    overflow: hidden;
+    align-items: flex-start;
+    align-items: center;
+    
     
 }
 
 
 #titulo_escalaçao{
     text-align: center;
-    
+
     justify-content: space-around;
     display: block;
     
@@ -96,4 +100,16 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
+    overflow: hidden;
+    padding: 6px;
+    display: inline-flex;
+    
+    
+}
+
+#gif{
+    right: 0px;
+    bottom: -50px;
+    position: fixed;
 }
